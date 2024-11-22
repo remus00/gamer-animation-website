@@ -1,7 +1,11 @@
+import { Hero } from './components/Hero';
+
 const App = () => {
     return (
-        <main>
-            <h1 className="text-red-500 text-5xl">Welcome</h1>
+        <main className="relative min-h-screen w-screen overflow-x-hidden">
+            <Hero />
+
+            <section className="z-0 min-h-screen bg-blue-300"></section>
         </main>
     );
 };
