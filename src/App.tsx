@@ -1,13 +1,15 @@
+import { About } from './components/About';
 import { Hero } from './components/Hero';
 
 const App = () => {
     return (
-        <main className="relative min-h-screen w-screen overflow-x-hidden">
+        <main className="relative no-scrollbar min-h-screen w-screen overflow-x-hidden">
             <Hero />
-
-            <section className="z-0 min-h-screen bg-blue-300"></section>
+            <About />
         </main>
     );
 };
+
+/* 1.09 */
 
 export default App;
