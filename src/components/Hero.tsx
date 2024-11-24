@@ -125,7 +125,7 @@ export const Hero = () => {
 
                     <video
                         src={getVideoSrc(currentIndex === totalVideos - 1 ? 1 : currentIndex)}
-                        autoPlay
+                        autoPlay={false}
                         loop
                         muted
                         className="absolute left-0 top-0 size-full object-cover object-center"
@@ -148,7 +148,7 @@ export const Hero = () => {
                             id="watch-trailer"
                             title="Watch Trailer"
                             leftIcon={<TiLocationArrow />}
-                            containerClass="!bg-yellow-300 flex-center gap-1"
+                            className="!bg-yellow-300 flex-center gap-1"
                         />
                     </div>
                 </div>
